@@ -1,0 +1,15 @@
+<web-app>
+    <servlet>
+        <servlet-name>mymvc</servlet-name>
+        <servlet-class>ben.study.mvcframework.v2.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-name>application.properties</param-name>
+        </init-param>
+        <load-on-startup></load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-mmae>mymvc</servlet-mmae>
+        <url-patter>/*</url-patter>
+    </servlet-mapping>
+</web-app>
